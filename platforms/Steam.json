@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 8,
   "platform": {
     "name": "Steam",
     "uniqueId": "steam",
@@ -62,11 +62,31 @@
       "extra": ""
     },
     {
+      "name": "steam - BannerHub (Normal)",
+      "uniqueId": "steam.banner.hub",
+      "description": "BannerHub",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a banner.hub.LAUNCH_GAME\n -n banner.hub/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es steamAppId {tags.steamappid}\n --ez autoStartGame true",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "steam - BannerHub Lite (Normal)",
+      "uniqueId": "steam.banner.hub.lite",
+      "description": "BannerHub Lite",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a banner.hub.lite.LAUNCH_GAME\n -n banner.hub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es steamAppId {tags.steamappid}\n --ez autoStartGame true",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
       "name": "steam - GameNative",
       "uniqueId": "steam.app.gamenative",
       "description": "GameNative",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
-      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.steamappid}\n",
+      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.steamappid}\n --es game_source STEAM",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
