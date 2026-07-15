@@ -25,7 +25,7 @@
   },
   "playerList": [
     {
-      "name": "gw - com.seleuco.mame4d2024",
+      "name": "gw - com.seleuco.mame4droid 2024",
       "uniqueId": "gw.com.seleuco.mame4d2024",
       "description": "Supported extensions: 7z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip|7z)$",
