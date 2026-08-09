@@ -180,7 +180,7 @@
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
-    }
+    },
     {
       "name": "windows - GameNative (All in One)",
       "uniqueId": "windows.app.gamenative.allinone",
