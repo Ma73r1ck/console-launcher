@@ -125,7 +125,7 @@
       "name": "windows - GameNative (All in One)",
       "uniqueId": "windows.app.gamenative.allinone",
       "description": "GameNative",
-      "acceptedFilenameRegex": "^(.*)\\.(?:pcgame|source)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:pcgame)$",
       "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n {tags.pcgame}\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
