@@ -1,5 +1,5 @@
 {
-  "baseUri": "https://raw.githubusercontent.com/likeich/console-launcher/main/platforms/",
+  "baseUri": "https://raw.githubusercontent.com/Ma73r1ck/console-launcher/main/platforms/",
   "platformList": [
     {
       "filename": "3DO.json",
