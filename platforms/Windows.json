@@ -121,6 +121,15 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
+    "name": "windows - GameNative (All in One)",
+      "uniqueId": "windows.app.gamenative.allinone",
+      "description": "GameNative",
+      "acceptedFilenameRegex": "^(.*)\\.(?:pcgame|source)$",
+      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n {tags.pcgame}\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
     {
       "name": "windows - GameNative (GOG)",
       "uniqueId": "windows.app.gamenative.gog",
@@ -177,16 +186,6 @@
       "description": "GameNative",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
       "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.steamappid}\n --es game_source STEAM\n",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": false,
-      "extra": ""
-    },
-    {
-      "name": "windows - GameNative (All in One)",
-      "uniqueId": "windows.app.gamenative.allinone",
-      "description": "GameNative",
-      "acceptedFilenameRegex": "^(.*)\\.(?:pcgame|source)$",
-      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n {tags.pcgame}\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
