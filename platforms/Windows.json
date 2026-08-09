@@ -186,7 +186,7 @@
       "uniqueId": "windows.app.gamenative.allinone",
       "description": "GameNative",
       "acceptedFilenameRegex": "^(.*)\\.(?:pcgame)$",
-      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.gameid}\n --es game_source {tags.gamesource}\n",
+      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.pcgame}\n --es game_source {tags.gamesource}\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
