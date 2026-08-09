@@ -121,7 +121,8 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-    "name": "windows - GameNative (All in One)",
+    {
+      "name": "windows - GameNative (All in One)",
       "uniqueId": "windows.app.gamenative.allinone",
       "description": "GameNative",
       "acceptedFilenameRegex": "^(.*)\\.(?:pcgame|source)$",
